@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 public class Log {
-	protected static String defaultLogFile = "C:\\msglog.txt";
+	protected static String defaultLogFile = "D:\\msglog.txt";
 
 	public static void write(String s) throws IOException {
 		write(defaultLogFile, s);
